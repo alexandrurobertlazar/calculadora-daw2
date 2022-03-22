@@ -1,27 +1,9 @@
-# CalculadoraDaw2
+# Ejercicio de calculadora
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+Este proyecto consiste en una calculadora que ejecuta diferentes operaciones (suma, resta, multiplicación, división, raíces y exponenciales). Además, cuenta con un diseño responsive.
 
-## Development server
+Nota: Las raíces cuadradas se realizan sobre todo el número insertado (igual que en algunas calculadoras reales). Por ejemplo, si tenemos la operación "2/3", la raíz se ejecuta sobre toda esa operación. Además, otras raíces se deben insertar usando el exponencial e insertando, en el mismo, el número "1/<raíz>" (por ejemplo, para sacar la raíz cúbica de 9, se tendría que insertar el 9, luego el exponencial y, por último, "(1/3)").
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+El proyecto incluye un despliegue en la plataforma "Vercel": https://calculadora-daw2.vercel.app/
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Lazar, Alexandru Robert | Desarrollo de Aplicaciones Web II
