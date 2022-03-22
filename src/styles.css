@@ -4,6 +4,9 @@
 .button-number {
   @apply bg-blue-600 text-white cursor-pointer text-center w-1/5 h-1/6 border-4 border-transparent rounded-lg;
 }
+.button-enter {
+  @apply bg-green-600 text-white cursor-pointer text-center w-1/5 h-1/6 border-4 border-transparent rounded-lg;
+}
 .button-operation {
   @apply bg-yellow-600 text-white cursor-pointer text-center w-1/5 h-1/6 border-4 border-transparent rounded-lg;
 }
