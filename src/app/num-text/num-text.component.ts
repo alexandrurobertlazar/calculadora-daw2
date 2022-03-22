@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-num-text',
@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./num-text.component.css']
 })
 export class NumTextComponent implements OnInit {
-  public operation: string = "";
+  @Input() operation: string = "";
+
   constructor() { }
 
   ngOnInit(): void {

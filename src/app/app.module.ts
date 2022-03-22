@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NumPadComponent } from './num-pad/num-pad.component';
 import { NumTextComponent } from './num-text/num-text.component';
+import { ResultTextComponent } from './result-text/result-text.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NumPadComponent,
-    NumTextComponent
+    NumTextComponent,
+    ResultTextComponent
   ],
   imports: [
     BrowserModule,

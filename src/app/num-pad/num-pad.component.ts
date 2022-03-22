@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-num-pad',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./num-pad.component.css']
 })
 export class NumPadComponent implements OnInit {
-
+  @Output() numberClicked = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  handleClick(char: string) {
+    this.numberClicked.emit(char)
   }
 
 }

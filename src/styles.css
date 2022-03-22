@@ -2,9 +2,12 @@
 @tailwind base;
 @tailwind components;
 .button-number {
-  @apply p-4 m-1 bg-blue-600 text-white rounded-md cursor-pointer;
+  @apply bg-blue-600 text-white cursor-pointer text-center w-1/5 h-1/6 border-4 border-transparent rounded-lg;
 }
 .button-operation {
-  @apply p-4 m-1 bg-yellow-600 text-white rounded-md cursor-pointer;
+  @apply bg-yellow-600 text-white cursor-pointer text-center w-1/5 h-1/6 border-4 border-transparent rounded-lg;
+}
+.button-error {
+  @apply bg-red-600 text-white cursor-pointer text-center w-1/5 h-1/6 border-4 border-transparent rounded-lg;
 }
 @tailwind utilities;

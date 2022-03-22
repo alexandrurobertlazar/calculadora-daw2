@@ -1,58 +1,78 @@
-<div class="flex flex-col bg-slate-100 p-6 rounded-md">
-  <div class="flex flex-row justify-between">
-    <div class="button-number">
+<table class="table table-auto w-full h-full border-separate">
+  <tr>
+    <td class="button-number" (click)="handleClick('1')">
       <span>1</span>
-    </div>
-    <div class="button-number">
+    </td>
+    <td class="button-number" (click)="handleClick('2')">
       <span>2</span>
-    </div>
-    <div class="button-number">
+    </td>
+    <td class="button-number" (click)="handleClick('3')">
       <span>3</span>
-    </div>
-    <div class="button-operation">
+    </td>
+    <td class="button-operation" (click)="handleClick('/')">
       <span>/</span>
-    </div>
-  </div>
-  <div class="flex flex-row justify-between">
-    <div class="button-number">
+    </td>
+    <td class="button-operation" (click)="handleClick('**')">
+      <span>^</span>
+    </td>
+  </tr>
+  <tr>
+    <td class="button-number" (click)="handleClick('4')">
       <span>4</span>
-    </div>
-    <div class="button-number">
+    </td>
+    <td class="button-number" (click)="handleClick('5')">
       <span>5</span>
-    </div>
-    <div class="button-number">
+    </td>
+    <td class="button-number" (click)="handleClick('6')">
       <span>6</span>
-    </div>
-    <div class="button-operation">
+    </td>
+    <td class="button-operation" (click)="handleClick('*')">
       <span>*</span>
-    </div>
-  </div>
-  <div class="flex flex-row justify-between">
-    <div class="button-number">
+    </td>
+    <td class="button-operation" (click)="handleClick('(')">
+      <span>(</span>
+    </td>
+  </tr>
+  <tr>
+    <td class="button-number" (click)="handleClick('7')">
       <span>7</span>
-    </div>
-    <div class="button-number">
+    </td>
+    <td class="button-number" (click)="handleClick('8')">
       <span>8</span>
-    </div>
-    <div class="button-number">
+    </td>
+    <td class="button-number" (click)="handleClick('9')">
       <span>9</span>
-    </div>
-    <div class="button-operation">
+    </td>
+    <td class="button-operation" (click)="handleClick('+')">
       <span>+</span>
-    </div>
-  </div>
-  <div class="flex flex-row justify-between">
-    <div class="button-number">
-      <span>,</span>
-    </div>
-    <div class="button-number">
+    </td>
+    <td class="button-operation" (click)="handleClick(')')">
+      <span>)</span>
+    </td>
+  </tr>
+  <tr>
+    <td class="button-number" (click)="handleClick('.')">
+      <span>.</span>
+    </td>
+    <td class="button-number" (click)="handleClick('0')">
       <span>0</span>
-    </div>
-    <div class="button-number">
+    </td>
+    <td class="button-number" (click)="handleClick('=')">
       <span>=</span>
-    </div>
-    <div class="button-operation">
+    </td>
+    <td class="button-operation" (click)="handleClick('-')">
       <span>-</span>
-    </div>
-  </div>
-</div>
+    </td>
+    <td class="button-operation" (click)="handleClick('√')">
+      <span>√</span>
+    </td>
+  </tr>
+  <tr>
+    <td class="button-error" colspan="4" (click)="handleClick('deleteAll')">
+      <span>Borrar todo</span>
+    </td>
+    <td class="button-error" (click)="handleClick('delete')">
+      <span>&lt;-</span>
+    </td>
+  </tr>
+</table>
