@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+.button-number {
+  @apply p-4 m-1 bg-blue-600 text-white rounded-md cursor-pointer;
+}
+.button-operation {
+  @apply p-4 m-1 bg-yellow-600 text-white rounded-md cursor-pointer;
+}
+@tailwind utilities;
